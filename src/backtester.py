@@ -158,3 +158,4 @@ def run_backtest(
         "trades_df": trades_df,
         "metrics": metrics,
     }
+

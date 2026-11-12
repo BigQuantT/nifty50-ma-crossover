@@ -88,3 +88,4 @@ def add_moving_averages(
     result["MA_Spread_Pct"] = (result["MA_Spread"] / result["Long_MA"]) * 100.0
 
     return result
+

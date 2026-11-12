@@ -74,3 +74,4 @@ def test_extract_trades_single_round_trip():
     assert trade["PnL (Pts)"] == 10.0
     assert pytest.approx(trade["Return (%)"]) == 10.0
     assert trade["Result"] == "WIN"
+

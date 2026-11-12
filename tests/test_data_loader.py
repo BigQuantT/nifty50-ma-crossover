@@ -42,3 +42,4 @@ def test_clean_dataframe_timezone_and_types():
 def test_clean_dataframe_empty_error():
     with pytest.raises(ValueError):
         clean_dataframe(pd.DataFrame())
+

@@ -36,3 +36,4 @@ jobs:
       - name: Run CLI Offline Verification
         run: |
           python main.py --offline --no-plot
+

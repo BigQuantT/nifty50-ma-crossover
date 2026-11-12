@@ -65,3 +65,4 @@ def test_backtester_zero_trades():
     out = run_backtest(df, initial_capital=50_000.0)
     assert out["metrics"]["Total Round-Trip Trades"] == 0
     assert out["metrics"]["Ending Portfolio Value (₹)"] == 50_000.0
+

@@ -71,3 +71,4 @@ def test_add_moving_averages_missing_column():
     df = pd.DataFrame({"Price": [100, 101, 102]})
     with pytest.raises(KeyError):
         add_moving_averages(df, price_col="Close")
+

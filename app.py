@@ -194,3 +194,4 @@ with tab4:
     st.dataframe(results_df.tail(100), use_container_width=True)
     csv_data = results_df.to_csv().encode("utf-8")
     st.download_button("📥 Download Full Backtest Dataset", data=csv_data, file_name="nifty50_backtest_data.csv", mime="text/csv")
+
