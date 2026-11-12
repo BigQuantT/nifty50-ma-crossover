@@ -58,3 +58,4 @@ output/*.jpg
 output/*.pdf
 !output/.gitkeep
 
+.agents/
