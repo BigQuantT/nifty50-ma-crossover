@@ -228,44 +228,7 @@ All 14 unit tests test corner cases, including:
 
 ---
 
-## 📤 Step-by-Step Guide to Upload to GitHub
 
-Follow these steps to upload this complete project to your personal GitHub account:
-
-### Step 1: Create a New Repository on GitHub
-1. Go to [github.com/new](https://github.com/new).
-2. Repository name: `nifty50-ma-crossover` (or your preferred name).
-3. Choose **Public** or **Private**.
-4. **Do NOT** initialize with a README, .gitignore, or license (we already created them!).
-5. Click **Create repository**.
-
-### Step 2: Initialize Git and Push from Terminal
-In your terminal, navigate to the project directory and run:
-
-```bash
-# Navigate to project directory
-cd /Users/shilpikumari/.gemini/antigravity/scratch/nifty50-ma-crossover
-
-# Initialize local git repository
-git init
-
-# Stage all files
-git add .
-
-# Create initial commit
-git commit -m "feat: complete end-to-end Nifty 50 10/30 MA crossover strategy system"
-
-# Rename default branch to main
-git branch -M main
-
-# Link remote GitHub repository (replace with your actual GitHub URL)
-git remote add origin https://github.com/<YOUR_GITHUB_USERNAME>/nifty50-ma-crossover.git
-
-# Push code to GitHub
-git push -u origin main
-```
-
----
 
 ## 🛠️ Technology Stack
 
